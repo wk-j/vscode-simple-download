@@ -12,15 +12,17 @@ type Config = {
 export class SimpleDownload {
     configs: Config[]
     constructor() {
-        this.configs = this.loadConfig()
+        this.loadConfig();
     }
 
     private loadConfig() {
         var config = vscode.workspace.getConfiguration().get("simpleDownload") as Config[]
-        return config || []
+        this.configs = config;
     }
 
     async showQuickPick() {
+        this.loadConfig();
+
         var items = this.configs.map(x => x.name)
         var result = await vscode.window.showQuickPick(items)
         if (result) {
