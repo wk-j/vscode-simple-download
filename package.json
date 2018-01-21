@@ -1,8 +1,8 @@
 {
     "name": "vscode-simple-download",
     "displayName": "Simple Download",
-    "description": "Download file in configuration into workspace",
-    "version": "0.0.2",
+    "description": "Download file into workspace",
+    "version": "0.0.3",
     "publisher": "wk-j",
     "icon": "images/icon.png",
     "engines": {
