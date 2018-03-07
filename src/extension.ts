@@ -8,12 +8,11 @@ export function activate(context: vscode.ExtensionContext) {
 
     var download = new SimpleDownload();
 
-    let disposable = vscode.commands.registerCommand('extension.simpleDownload.showQuickPick', () => {
+    let disposable = vscode.commands.registerCommand("extension.simpleDownload.showQuickPick", () => {
         download.showQuickPick();
     });
 
     context.subscriptions.push(disposable);
 }
 
-export function deactivate() {
-}
+export function deactivate() { }

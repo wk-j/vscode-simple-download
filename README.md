@@ -1,28 +1,32 @@
-## Simple Download
+## Simple Downloader
 
-Download file into workspace
+Download http file into vscode workspace
 
 ## Installation
 
 - <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
 - Install Extensions
-- Simple download
+- Simple downloader
 
 ## Usage
 
-Add url in user / workspace settings.
+Add file url to user or workspace settings (`appsettings.json`)
+
+**Example**
 
 ```json
 "simpleDownload": [
     {
         "name": "OmniSharp configuration",
-        "url": "https://raw.githubusercontent.com/wk-j/dotnet-format/master/omnisharp.json",
+        "url": "https://raw.githubusercontent.com/wk-j/configurations/master/omnisharp.json",
         "target": "omnisharp.json"
     }
 ]
 ```
 
-- <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
-- Select `Simple download`
-- Select `OmniSharp configuration`
-- File will download and save as `omnisharp.json`
+**How to download `omnishrap.json` into workspace
+
+1. <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
+2. Select `Download`
+3. Select `Omnisharp configuration` in quick pick dialog.
+4. File will download and save as `omnisharp.json` into the root of vscode workspace.
