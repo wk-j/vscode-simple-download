@@ -2,7 +2,7 @@
     "name": "vscode-simple-download",
     "displayName": "Simple Downloader",
     "description": "Download http file into vscode workspace",
-    "version": "18.3.0",
+    "version": "18.3.1",
     "publisher": "wk-j",
     "icon": "images/icon.png",
     "engines": {
