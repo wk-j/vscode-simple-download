@@ -39,8 +39,10 @@ export class SimpleDownload {
         https.get(config.url, res => {
             res.on("data", data => {
                 targetStream.write(data)
-                targetStream.close()
             })
+            res.on("end", () => {
+                targetStream.close()
+            });
         })
     }
 }
