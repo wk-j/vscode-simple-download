@@ -1,14 +1,20 @@
-## Simple Downloader
+<p align="center">
+    <img src="https://github.com/wk-j/vscode-simple-download/blob/master/resource/logo.png?raw=true" />
+</p>
+
+#
+
+[![Version](https://vsmarketplacebadge.apphb.com/version/wk-j.vscode-simple-download.svg)](https://marketplace.visualstudio.com/items?itemName=wk-j.vscode-simple-download) [![Installs](https://vsmarketplacebadge.apphb.com/installs-short/wk-j.vscode-simple-download.svg)](https://marketplace.visualstudio.com/items?itemName=wk-j.vscode-simple-download)
 
 Download http file into vscode workspace
 
-## Installation
+# Installation
 
 - <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
 - Install Extensions
 - Simple downloader
 
-## Usage
+# Usage
 
 Add file url to user or workspace settings (`appsettings.json`)
 
